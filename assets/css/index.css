@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.ttf");
+}
+
+body {
+    background-color: #202020;
+    font-family: 'IBMPlexSans';
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 75px;
+    background-color: #161616;
+}
+
+.pfp {
+    height: 50px;
+    padding-top: 12.5px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+}
+
+.navbar-items {
+    display: inline-flex;
+    list-style: none;
+}
+
+.navbar-item {
+    margin-right: 25px;
+    color:rgb(130, 130, 115)
+}
