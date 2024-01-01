@@ -1,6 +1,12 @@
 @font-face {
     font-family: 'IBMPlexSans';
-    src: url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.ttf");
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Regular.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,28 +14,46 @@ body {
     font-family: 'IBMPlexSans';
 }
 
+a {
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+
 .navbar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
     height: 75px;
-    background-color: #161616;
+    margin: 0px;
+    border-bottom: solid 1px rgb(0, 255, 0);
+    background-color: #000000;
 }
 
 .pfp {
     height: 50px;
-    padding-top: 12.5px;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
+    border: solid 1.5px rgb(0, 255, 0);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.pfp-div {
+    padding: 12.5px;
 }
 
 .navbar-items {
-    display: inline-flex;
     list-style: none;
+    display: flex;
+    margin: 0; 
+    padding: 0; 
 }
 
 .navbar-item {
+    cursor: pointer;
     margin-right: 25px;
-    color:rgb(130, 130, 115)
+    color: rgb(0, 255, 0);
+}
+
+.navbar-item.item-2 {
+    margin-right: 20px;
+    margin-left: auto;
 }
