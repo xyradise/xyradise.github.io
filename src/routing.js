@@ -7,6 +7,9 @@ function router() {
     app.innerHTML = ''; 
 
     switch(route) {
+        case '':
+            home(app);
+            break;
         case '/home':
             home(app);
             break;
