@@ -1,31 +1,24 @@
 <template>
     <div> 
         <Navbar />
+        <Terminal />
         <div class="max-w-3xl mx-auto p-4">
             <section class="mb-8">
                 <h2 class="text-2xl font-bold mb-4 text-gray-900">Who am I?</h2>
                 <p class="text-lg text-gray-700">
-                Just an undergrad, but hopefully I get to do some post grad stuff. 
+                An undergraduate studying math, with computer science and other hobbies. 
                 </p>
             </section>
 
             <section class="mb-8">
                 <h2 class="text-2xl font-bold mb-4 text-gray-900">Interests</h2>
                 <ul class="list-disc pl-6 text-lg text-gray-700">
-                <li>Computers and of the like</li>
+                <li>CTFs</li>
                 <li>Math</li>
-                <li>and chess...</li>
+                <li>Programming</li>
                 </ul>
             </section>
-
-            <section class="mb-8">
-                <h2 class="text-2xl font-bold mb-4 text-gray-900">About the Website</h2>
-                <p class="text-lg text-gray-700">
-                This website is just a portfolio, but not a boring one. It should work (i think), but I should get to every issue eventually...
-                </p>
-            </section>
         </div>
-        <Terminal />
     </div>
 </template>
 
